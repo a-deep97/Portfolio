@@ -1,14 +1,12 @@
 :root{
-    --mainColor: #eaeaee;
-    --secondaryColor: #fff;
+    --mainColor: black;
+    --secondaryColor: pink;
 
-    --borderColor: #c1c1c1;
+    --borderColor: white;
 
-    --mianText: black;
-    --secondaryText: #4b5156;
+    --mainText: black;
+    --secondaryText: red;
     
-    --themeDotBorder: #24292e;
-
     --previewBg: rgb(251,249,243,0.8);
     --previewShadow: #f0ead6;
 
@@ -46,6 +44,7 @@ html , body{
 }
 .greetingWrapper{
     display: grid;
+    background:pink;
     min-height: 15em;
     text-align: center;
     align-content: center;
@@ -130,36 +129,8 @@ html , body{
     object-fit: cover;
     border: 2px solid var(--borderColor);
 }
-#theme-options-wrapper{
-    display: flex;
-    justify-content: center;
-}
-.theme-dot{
-    height: 30px;
-    width: 20px;
-    background-color: black;
-    border-radius: 50%;
-    margin: 5px;
-    border: 2px solid var(--themeDotBorder);
-    
 
-    cursor: pointer;
-}
-.theme-dot:hover{
-    border-width: 5px;
-}
-#light-mode{
-    background-color: #fff;
-}
-#blue-mode{
-    background-color: #192734;
-}
-#green-mode{
-    background-color: #78866b;
-}
-#purple-mode{
-    background-color: #7E4C74;
-}
+
 #settings-note{
     font-size: 12px;
     font-style: italic;
